@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      table,
+      tr,
+      th,
+      td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 20px;
+        text-align: center;
+      }
+      table {
+        margin-left: 25%;
+      }
+      h1 {
+        text-align: center;
+      }
+      tr:nth-child(ODD) {
+        background-color: rgb(148, 223, 247);
+      }
+      tr:nth-child(even) {
+        background-color: rgb(217, 249, 254);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Team Members Info</h1>
+    <table>
+      <tr>
+        <th>Branch</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Experience in Years</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Web Designing</td>
+        <td>Siraj</td>
+        <td>sirajrahmank@gmail.com</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>Ruban</td>
+        <td>rubankarthick007@gmail.com</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Programming</td>
+        <td>Shilpa</td>
+        <td>shilpashetty46@gmail.com</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Suganthi</td>
+        <td>suganthimani21@gmail.com</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Cloud Computing</td>
+        <td>Srinath</td>
+        <td>srinathsaravanan@gmail.com</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td colspan="3">Total Members</td>
+        <td>6</td>
+      </tr>
+    </table>
+  </body>
+</html>
